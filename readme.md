@@ -12,41 +12,41 @@
 
 ### Пример
 ### Ввод
-{
-    "hello": "world",
-    "pokemons": [
-        "pikachu",
-        "bulbasaur",
-        "eevee"
-    ],
-    "numbers": {
-        "zero": 0,
-        "1": "one"
-    },
-    "20": 23,
-    "???": [
-        "just",
-        "random",
-        [
-            "a",
-            "r",
-            "r",
-            "a",
-            "y"
-        ]
-    ]
-}
-4
-"pokemons" 1
-"???" 2 0
-"numbers" "zero"
-"numbers" "1"
+{\
+    &emsp; "hello": "world",\
+    &emsp; "pokemons": [\
+        &emsp; &emsp; "pikachu",\
+        &emsp; &emsp; "bulbasaur",\
+        &emsp; &emsp; "eevee"\
+    &emsp; ],
+    &emsp; "numbers": {\
+        &emsp; &emsp; "zero": 0,\
+        &emsp; &emsp; "1": "one"\
+    &emsp; },\
+    &emsp; "20": 23,\
+    &emsp; "???": [\
+        &emsp; &emsp; "just",\
+        &emsp; &emsp; "random",\
+        &emsp; &emsp; [\
+            &emsp; &emsp; &emsp;"a",\
+            &emsp; &emsp; &emsp;"r",\
+            &emsp; &emsp; &emsp;"r",\
+            &emsp; &emsp; &emsp;"a",\
+            &emsp; &emsp; &emsp;"y"\
+        &emsp; &emsp; ]\
+    &emsp; ]\
+}\
+4\
+"pokemons" 1\
+"???" 2 0\
+"numbers" "zero"\
+"numbers" "1"\
 
 ### Вывод
-bulbasaur
-a
-0
-one
+bulbasaur\
+a\
+0\
+one\
 
 ### Примечания
 Примечание: формат описания JSON-сообщения в этой задаче упрощен, в реальности он чуть-чуть сложнее
@@ -67,25 +67,25 @@ JSON-сообщение может являться одной из 4 сущно
 
 ### Пример:
 
-[
-    "это срока",
-    [
-        "это",
-        "перечисление"
-    ],
-    12
-]
+[\
+    &emsp; "это срока",\
+    &emsp; [\
+        &emsp; &emsp; "это",\
+        &emsp; &emsp; "перечисление"\
+    &emsp; ],\
+    &emsp; 12\
+]\
 запись - это неупорядоченное множество пар строка:JSON-сообщение, заключённое в фигурные скобки "{}".
 
 ### Пример:
 
-{
-    "hello": "world",
-    "json": [
-        "это",
-        "круто"
-    ]
-}
+{\
+    &emsp; "hello": "world",\
+    &emsp; "json": [\
+        &emsp; &emsp; "это",\
+        &emsp; &emsp; "круто"\
+    &emsp; ]\
+}\
 # В задаче даются следующие гарантии:
 
 - Сообщение, подаваемое на вход программе - это либо запись, либо перечисление
